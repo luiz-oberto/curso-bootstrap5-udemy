@@ -27,7 +27,7 @@ h1 {
 /* XL >= 1200px */
 @media (min-width: 1200px) {
     h1 {
-        color: yellow;
+        color: gold;
     }
 }
 
