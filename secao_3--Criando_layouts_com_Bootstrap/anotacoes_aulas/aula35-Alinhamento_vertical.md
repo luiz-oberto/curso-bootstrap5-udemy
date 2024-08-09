@@ -1,6 +1,6 @@
 # Alinhamento vertical
 - As colunas dentro de uma row **estão condicionadas ao flex box**;
-- Ou seja, temos **classes bem parecidascom as regras de flex** para alinhá-las;
+- Ou seja, temos **classes bem parecidas com as regras de flex** para alinhá-las;
 - Exemplo: **align-items-end** alinha no fim da row;
 - Lembrando que esta classe **sempre deve ficar no elemento pai** (row)
 

@@ -8,3 +8,26 @@
 
 Vamos para nosso index.html
 
+~~~html
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Produto A</p>
+            </div>
+            <div class="col">
+                <p>Produto B</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Produto C</p>
+            </div>
+            <div class="col">
+                <p>Produto D</p>
+            </div>
+            <div class="col">
+                <p>Produto E</p>
+            </div>
+        </div>
+    </div>
+~~~
