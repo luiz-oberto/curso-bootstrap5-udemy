@@ -9,12 +9,14 @@ No código:
 ~~~html
       <!-- Alinhamento Horizontal -->
       <div class="container vertical">
+        <!-- aqui ele alinha ao centro  -->
         <div class="row align-items-center justify-content-center">
             <div class="col-3"></div>
         </div>
       </div>
 
       <div class="container vertical">
+        <!-- aqui ele alinha nossas divs na direita -->
         <div class="row justify-content-end">
             <div class="col-3"></div>
             <div class="col-3"></div>
