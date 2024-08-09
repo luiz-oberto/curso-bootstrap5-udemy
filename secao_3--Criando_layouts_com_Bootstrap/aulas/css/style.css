@@ -112,7 +112,16 @@ h1 {
 
 .vertical .col-6,
 .vertical .col-3, 
-.vertical .col-4{
+.vertical .col-4 {
     height: 50px;
 }
 
+/* offset */
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3{
+    height: 50px;
+    border: 2px solid red;
+}
