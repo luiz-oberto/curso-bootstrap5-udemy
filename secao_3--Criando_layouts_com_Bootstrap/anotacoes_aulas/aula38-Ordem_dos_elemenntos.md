@@ -6,5 +6,12 @@
 
 No código:
 ~~~html
-
+    <div class="container vertical">
+        <div class="row">
+            <div class="col-sm-12 col-3 order-3">3</div>
+            <div class="col-sm-12 col-3 order-1">1</div>
+            <div class="col-sm-12 col-3 order-4">4</div>
+            <div class="col-sm-12 col-3 order-2">2</div>
+        </div>
+    </div>
 ~~~
