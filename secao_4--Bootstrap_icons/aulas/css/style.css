@@ -1,5 +1,16 @@
 .bi.bi-bell {
-    font-size:  40px;
+    font-size:  240px;
     color: green;
     margin: 20px;
+}
+
+.bi {
+    font-size: 60px;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
 }
