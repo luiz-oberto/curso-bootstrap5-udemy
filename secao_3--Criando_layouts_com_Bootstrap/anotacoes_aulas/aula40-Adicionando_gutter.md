@@ -1,6 +1,6 @@
 # Gutters
-- Os **Gutters** são intervalos quue podemos inserir entre as colunas;
-- É possível inserri no **eixo x ou y**;
+- Os **Gutters** são intervalos que podemos inserir entre as colunas;
+- É possível inserir no **eixo x ou y**;
 - Exemplo: **gx-2** (horizontal);
 - Ou: **gy-4** (vertical);
 - Os números que utilizamos são **baseados e rem da página**, fonte do elemento root;
