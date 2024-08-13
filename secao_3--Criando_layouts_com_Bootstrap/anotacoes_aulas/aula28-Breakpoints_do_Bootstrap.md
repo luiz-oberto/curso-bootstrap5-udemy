@@ -1,7 +1,7 @@
 # Os Breakpoints do Bootstrap
 - Os Breakpoints do Bootstrap são utilizados por classes como: *sm, md, lg*; -> dependendo de qual prefixo desses estiver presente, a aplicação vai funcionar de uma maneira diferente.
 - Cada um representa uma *media query*;
-- Então normalemte *adequamos outrso elementos* do nosso site a estes breakpoints;
+- Então normalemte *adequamos outros elementos* do nosso site a estes breakpoints;
 - Assim é possível *Trabalhar com Conjunto do Bootstrap* e deixar o site responsivo;
 - Vamos ver na prática!
 
