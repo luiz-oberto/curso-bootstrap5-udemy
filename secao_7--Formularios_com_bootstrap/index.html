@@ -30,5 +30,28 @@
              <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
     </div>
+
+    <!-- form desabiltado -->
+    <div class="col-4 m-4">
+
+        <h2>Formulário Desabilitado</h2>
+        <form>
+            <!-- podemos desabilitar oo formulário colocando todo ele dentro da tag fieldset adicionando *disabled* dentro da tag 
+             esta foma ele vai desabilitar todo o formulário que tiver dentro dele-->
+            <fieldset disabled>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <!-- podemos também desabilitar uma formulário direto na tag do input -->
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail" disabled>
+                    <div id="emailHelp" class="form-text">Não compartilhamos eu endereçõo de e-mail.</div>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua a senha">
+                </div>
+                 <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
