@@ -1,3 +1,8 @@
+# CSS da página de login
+Nesta aual vamos trabalhar na estilização do nosso form de login.
+
+segue o código do CSS:
+~~~CSS
 body {
     background-color: #F8F8F8;
 }
@@ -8,7 +13,7 @@ body {
     background-color: #FFF;
     /* arrendondamento das bordas */
     border-radius: 20px;
-    /* sombreamento da caixa (dando a sensação de que está flutuando */
+    /* sombreamento da caixa (dando a sensação de que está flutuando) */
     box-shadow: .5px  10px 15px rgba(0, 0, 0, .2);
     /* margem da borda */
     margin: 25px auto;
@@ -32,7 +37,7 @@ body {
 }
 
 #form-container a:hover {
-    /* cor que vai mudar quando o mouse passar em cima */
+    /* cor para a qual vai mudar quando o mouse passar em cima */
     color: #6c63ff;
 }
 
@@ -52,7 +57,7 @@ body {
     box-shadow: none;
 }
 
-/* deixando as palavras da nossa label masi claras */
+/* deixando as palavras de dentro da nossa label mais claras */
 #form-container .form-floating label {
     color: #ccc;
 }
@@ -80,3 +85,4 @@ body {
     text-align: center;
     padding-top: 50px;
 }
+~~~
