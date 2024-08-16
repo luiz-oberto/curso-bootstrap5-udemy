@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- CSS do projeto -->
-     <link rel="stylesheet" href="css/style.css">
-    <!-- Javascript Bundle withh Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
-</head>
-<body>
-    <div class="container col-11 col-md-9" id="form-container">
+# Página de Registro
+Nesta aula vamos fazer nosso formulário de regitro para concluir este módulo.
+
+Como já fizemos a maior parte da estilização para o formulário de login, fazer o formulário de registro não dará tanto trabalho porque podemos reaproveitar todo o estilo feito para o login. Dito isso, vamos aos códigos:
+
+~~~html
+<!-- register.html -->
+   <div class="container col-11 col-md-9" id="form-container">
         <div class="row gx-5">
             <div class="col-md-6">
                 <h2>Realize seu cadastro</h2>
@@ -66,5 +59,23 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+~~~
+
+- Alterações feitas no CSS:
+    - foi acrescentado a mudança de cor no checkbox apenas quando ele for marcado
+    - e uma pequena margem ao botão de para separar um pouco do formulário
+~~~css
+/* mudando a cor do Botão */
+#form-container input[type="submit"],
+#form-container input[type="checkbox"]:checked {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+}
+
+/* Ajustando o botão para MOBILE */
+.btn.btn-primary {
+    width: 100%;
+    margin-top: 25px;
+}
+
+~~~
