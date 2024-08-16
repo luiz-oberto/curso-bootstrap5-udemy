@@ -16,6 +16,13 @@ body {
     padding: 25px;
 }
 
+@media(min-width: 768px) {
+    #from-container {
+        margin: 50px auto;
+        padding: 50px;
+    }
+}
+
 #form-container h2 {
     /* deixar em negrito (bem negrito) */
     font-weight: 900;
@@ -68,11 +75,34 @@ body {
     border-color: #6c63ff;
 }
 
+/* Ajustando o botão para MOBILE */
+.btn.btn-primary {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .btn.btn-primary {
+        width: auto;
+    }
+}
+/* ###################### */
+
 /* IMAGE */
 .row.align-items-center {
     align-content: center;
     height: 100%;
     padding: 50px 0;
+}
+
+/* ajustando o padding da imagem */
+.col-md-6.order-md-1 {
+    padding-top: 50px;
+}
+
+@media(min-width: 768px) {
+    .col-md-6.order-md-1{
+        padding-top: 0;
+    }
 }
 
 /* Centralizando link */
