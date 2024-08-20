@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
         defer></script>
+        <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
@@ -20,47 +21,38 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Meu Projeto</a>
-            <button 
-            class="navbar-toggler" 
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle Navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" aria-current="page">Produtos</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >
-                        Categorias
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="#" class="dropdown-item">Cat A</a></li>
-                        <li><a href="#" class="dropdown-item">Cat B</a></li>
-                        <li><a href="#" class="dropdown-item">Cat C</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" aria-current="page">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" aria-current="page">Contato</a>
-                </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">Produtos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Cat A</a></li>
+                            <li><a href="#" class="dropdown-item">Cat B</a></li>
+                            <li><a href="#" class="dropdown-item">Cat C</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">Contato</a>
+                    </li>
 
-            </ul>
-        </div>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -68,15 +60,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Meu Projeto</a>
-            <button 
-            class="navbar-toggler" 
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav2"
-            aria-controls="navbarNav2"
-            aria-expanded="false"
-            aria-label="Toggle Navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2"
+                aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav2">
@@ -102,40 +87,64 @@
     </nav>
 
     <!-- Off canvas -->
-     <div class="container m-4">
-        <button 
-            class="btn btn-primary" 
-            type="button" 
-            data-bs-toggle="offcanvas" 
-            data-bs-target="#offcanvasRight" 
-            aria-controls="offcanvasRight"
-            >
+    <div class="container m-4">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
             Abrir carrinho
-            </button>
+        </button>
 
-            <div class="offcanvas offcanvas-end" 
-                tabindex="1"
-                id="offcanvasRight"
-                aria-labelledby="OffcanvasLabel">
-                <!-- offcanvas-end -> é uma variação do offcanvas -->
-                 <div class="offcanvas-header">
-                    <h5 class="offcanvasLabel">Carrinho</h5>
-                    <button 
-                        class="btn-close text-reset"
-                        type="submit" 
-                        type="button"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                 </div>
-                 <div class="offcanvas-body">
-                    <ul>
-                        <li>Produto 1</li>
-                        <li>Produto 2</li>
-                        <li>Produto 3</li>
-                    </ul>
-                 </div>
-            </div> 
-     </div>
+        <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasRight" aria-labelledby="OffcanvasLabel">
+            <!-- offcanvas-end -> é uma variação do offcanvas -->
+            <div class="offcanvas-header">
+                <h5 class="offcanvasLabel">Carrinho</h5>
+                <button class="btn-close text-reset" type="submit" type="button" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li>Produto 1</li>
+                    <li>Produto 2</li>
+                    <li>Produto 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paginação -->
+    <div class="container mb-4">
+        <nav aria-label="page Navigation">
+            <ul class="pagination">
+                <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item active"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">Próxima</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Pop over -->
+    <div class="container mb-4">
+        <button 
+            class="btn btn-lg btn-success" 
+            type="button" 
+            data-bs-toggle="popover" 
+            title="Este é o título"
+            data-bs-content="E aqui podemos inserir a descrição">
+                Clique aqui
+        </button>
+    </div>
+
+    <div class="container mb-4">
+        <button 
+            class="btn btn-lg btn-danger" 
+            type="button" 
+            data-bs-toggle="popover" 
+            title="Este é o título 2"
+            data-bs-content="E aqui podemos inserir a descrição 2">
+                Clique aqui
+        </button>
+    </div>
 </body>
 
 </html>
