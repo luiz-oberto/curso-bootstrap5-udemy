@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExactTime</title>
-    <!-- Fav icon -->
-     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-     <!-- Google fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-     <!-- bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     <!-- Bootstrap icons -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <!-- CSS Exact Time -->
-      <link rel="stylesheet" href="css/styles.css">
-     <!-- Bootstrap JS -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- NAVBAR -->
+# Iniciando a navbar superior
+Nesta aula apenas estamos colocando os conteúdos da navbar sem a devida estilização. Aqui a única novidade que podemos mensionar é a *tag span* com a classe **qty-info** que vai indicar a quantidade de itens (ou notificaçõe) no em cimas dos icones de pessoa e bolsa.
+
+No código:
+~~~html
+ <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg primary-bg-color py-4 px-2" id="navbar">
         <div class="container">
             <a href="#" class="navbar-brand">ExactTime</a>
@@ -54,5 +37,4 @@
             </div>
         </div>
     </nav>
-</body>
-</html>
+~~~
