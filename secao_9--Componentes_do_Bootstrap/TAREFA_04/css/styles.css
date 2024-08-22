@@ -1,0 +1,25 @@
+body {
+    padding-bottom: 300px;
+}
+
+.card {
+    width: 200px;
+}
+
+#card-banner {
+    width: 800px;
+}
+
+/* configurando a descrição dos slides */
+@media(max-width: 768px) {
+    #slide-title,
+    #slide-description {
+        display: none;
+    }
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
