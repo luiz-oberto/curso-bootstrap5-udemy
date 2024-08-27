@@ -1,6 +1,6 @@
 # Offcanvas
 - Offcanavas é **parecido com o Modal**;
-- Um **contepudo que fica oculto**, a espera de um botão;
+- Um **conteudo que fica oculto**, a espera de um botão;
 - Porém tem uma perspectiva diferente, **costuma aparecer pela lateral**;
 - Interessante para carrinhos de e-commerce, por exemplo;
 
@@ -44,4 +44,4 @@ No código:
 ~~~
 
 ### button.text-reset
-- Mudar a cor do botãoc
+- Mudar a cor do botão
