@@ -5,3 +5,48 @@ h1 {
 p {
     color: green;
 }
+
+/* CERTO! */
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ERRADO!!! MÁ PRÁTICA*/
+h2 {
+    color: green; text-align: center; font-size: 50px;
+}
+
+/* Este é um comentário */
+
+/* 
+    Este
+    é 
+    um 
+    comentário
+*/
+
+/* CLASSES E IDS */
+.p-texto {
+    color: lightgreen;
+}
+
+#titulo-app {
+    color: purple;
+    font-size: 40px;
+}
+
+/* Cores */
+.nome {
+    color: orange;
+}
+
+.hexa {
+    color: #6a40c4;
+}
+
+.rgba {
+    color: rgba(17, 197, 214, 1);
+    font-size: 40px;
+}
