@@ -102,3 +102,45 @@ h2 {
 .variant {
     font-variant: small-caps;
 }
+
+/* Box Model */
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* geral */
+    /* padding: 20px; */
+
+    /* específico */
+    /* padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px; */
+
+    /* específico agrupado */
+    /* adicionando  padding no sentido horário */
+    /* padding: 30px 20px 5px 10px; */
+
+    /* específico agrupado - 3 medidas - top, right-left, bottom*/
+    /* padding: 30px 20px 5px; */
+
+    /* específico agrupado - 2 medidas - top-bottom, right-left */
+
+    /* border */
+    padding: 30px 20px;
+    border: 3px solid #000;
+    border-width: 5px 10px 2px 10px;
+    border-left: 5px dotted blue;
+    border-right-style: double;
+    border-width: 20px 10px;
+    border-radius: 15px;
+}
+
+.paragrafo-box {
+    color: #000;
+    margin: 0;
+}
