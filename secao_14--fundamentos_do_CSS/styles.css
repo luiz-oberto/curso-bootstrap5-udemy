@@ -138,6 +138,11 @@ body {
     border-right-style: double;
     border-width: 20px 10px;
     border-radius: 15px;
+
+    /* margin: 50px;
+    margin: 5px 10px 10px 7px; */
+    /* margin: 20px 10px; */
+    margin: 100px;
 }
 
 .paragrafo-box {
