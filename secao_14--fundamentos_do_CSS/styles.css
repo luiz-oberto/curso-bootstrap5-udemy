@@ -239,3 +239,41 @@ body {
 .p-float {
     color: #000;
 }
+
+/* Clear */
+.clear {
+    clear: both;
+}
+
+/* Units */
+/* Pixels */
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+
+/* Porcentagem */
+.pai-porcentagem {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.porcentagem-1 {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.porcentagem-2 {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
