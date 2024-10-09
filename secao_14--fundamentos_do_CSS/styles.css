@@ -162,3 +162,56 @@ body {
     color: #000;
     margin: 0;
 }
+
+
+/* POSITIONS */
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 2px dotted black;
+}
+
+/* static */
+.static {
+    position: static;
+}
+
+/* relative */
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+/* absolute */
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right: 0;
+    top: 0;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+/* sticky */
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top:0px;
+}
+
+.mini-div {
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 50px;
+}
